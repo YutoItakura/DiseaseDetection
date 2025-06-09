@@ -1,0 +1,6 @@
+flask
+flask-cors
+pillow
+ultralytics
+opencv-python-headless
+azure-storage-blob
