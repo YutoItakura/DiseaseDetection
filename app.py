@@ -7,6 +7,8 @@ from azure.storage.blob import BlobServiceClient,ContentSettings
 import io
 from datetime import date
 
+conn_str="DefaultEndpointsProtocol=https;AccountName=diseaseimages;AccountKey=r/u6nBt8xtk/l4jiyxKDmAwKzJMO+h/qEEZrR90rqI6jH0PYHiH4kNR2OTIAzKAsjb0mkRcNj5Nf+AStfTJhMg==;EndpointSuffix=core.windows.net"
+container_name="images"
 
 def upload_image(image_buffer,blob_name):
      blob_service_client = BlobServiceClient.from_connection_string(conn_str)
